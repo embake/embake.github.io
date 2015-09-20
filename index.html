@@ -6,74 +6,137 @@
 <meta http-equiv="imagetoolbar" content="no" />
 
 <style type="text/css">
-body{
-  margin:0;
-  padding:0;
-  font-size:15px;
-  font-family:Arial;
-  color:#787878;
-  background-color:#FFFFFF;
-  }
+thead { font: 100%; }
 
-.portfolio{
-  width: 100%;
-  margin: 0 auto 0px;
-  padding: 0px 0;
-  border-top: 0px solid #999999;
-  border-bottom: 0px solid #999999;
-  }
+th,td { vertical-align: top;
+        padding-bottom: 5;
+        padding-top: 5;
+        padding-left: 20;
+        padding-right: 20; }
 
-.portfolio .fl_left{
-  height: 200px; 
-  width: 20%; 
-  float: left;
-  }
+a:link {
+    color: Darkblue;
+}
 
-.portfolio .fl_right{
-  float: right;
-  height: 200px;
-  width: 80%;
-  }
+html
+{
+    font: 16px Georgia, "Times New Roman", Times, serif;
+    line-height: 1.6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    padding: 30px; }
+}
 
-.whitebox{
-  padding:30px;
-  color:#999999;
-  background-color:#FFFFFF;
-  }
+div.header
+{
+    font-style: normal;
+    font-weight: normal;
+    font-family: "Lucida Grande", Verdana, Arial;
+    margin: 5;
+    padding: 0;
+}
+
+div.content
+{
+    margin: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15em;
+}
+
+div.content h1 {
+    font: bold 20pt "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+div.content h2,h3,h4,h5 {
+	font: bold large "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+
+div.navigation
+{
+    font-family:  "Lucida Grande", Verdana, Arial;
+    font-size: small;
+    background-color: lightgray;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 15em;
+    padding: 1em
+}
+
+div.navigation h1,h2,h3 {
+	font:  bold large "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+div.navigation h4 {
+	font:  12pt "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+
+div.navigation h5 {
+	font:  12pt "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+
+div.navigation td
+{
+    font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-variant: normal;
+}
+
+ul,ol,li {
+	float: none;
+	margin-left: 2px;
+	padding: 5px;
+}
+
+ul,ol {
+	margin-left: 25px;
+}
 </style>
 </head>
 <body>
-<div class="whitebox">
-      <!-- ####################### -->
 
-      <div class="portfolio">
-        <div class="fl_left">
-          <div><img src="images/whatisbigdata.jpg" width="150" height="179" alt="" /></div>
-        </div>
-        <div class="fl_right">
-          <h1>Shuangyin Li</h1>
-          <div class="content" style="font-size:15px"><p>Now PostDoc in Department of Computer Science and Engineering, Hong Kong University of Science and Technology</p>
-          <p>Supervisor: <a href="http://www.cse.ust.hk/~qyang/">Prof. Qiang Yang</a></p> 
-          <li><m style="font-size:16px">Address:</m> Clearwater Bay, Kowloon, Hong Kong.
-          <li><m style="font-size:16px">Emails:</m> shuangyinli@cse.ust.hk  lshuangyin@gmail.com
-          </div>
-        </div>
-        
-      </div>
-</div>
-<HR width="70%">
-<div class="whitebox"  align=center; style="width: 70%; float: left;">
-      <p style="font-size:18px">Research Interests:</p> 
-      <li>Data Mining, Artificial Intelligence, Topic Modeling, Deep Learning, NLP.
-      <br>
-      <p style="font-size:18px">Positions and Educations:</p> 
-      <li>B.Sc. (2009) Lan Zhou University, Gansu.
-      <li>M.Sc. (2011) Sun Yat-sen University, Guangzhou.
-      <li>PhD (2014) Sun Yat-sen University, Guangzhou.
-      <li>2015 - present: PostDoc in HKUST CSE.
+<!--- NAVIGATION BAR --->
 
+<div class="navigation">
+  <center>
+  <img src="huihui.jpg" alt="picture", height=200, align="center">
+
+  <h3> Shuangyin Li </h3>
+  PostDoc in Department of Computer Science and Engineering, Hong Kong University of Science and Technology</p>
+  shuangyinli@cse.ust.hk
+  <p>
+  lshuangyin@gmail.com
+  <p>
+  Address:</m> Clearwater Bay, Kowloon, Hong Kong.
+  </center>
+  <p>
 </div>
 
+<!--- END NAVIGATION BAR --->
+
+<div class="content">
+
+<p><p>Now PostDoc in Department of Computer Science and Engineering, Hong Kong University of Science and Technology</p>
+          <p>Supervisor: <a href="http://www.cse.ust.hk/~qyang/">Prof. Qiang Yang</a></p>
+
+<p> My research interests:
+Data Mining, Artificial Intelligence, Topic Modeling, Deep Learning, NLP.
+
+
+<ul>
+    <p>Positions and Educations:</p> 
+    <li>B.Sc. (2009) Lan Zhou University, Gansu.
+    <li>M.Sc. (2011) Sun Yat-sen University, Guangzhou.
+    <li>PhD (2014) Sun Yat-sen University, Guangzhou.
+    <li>2015 - present: PostDoc in HKUST CSE.
+</ul>
+</div>  
 
 <br><br>
 </body>
