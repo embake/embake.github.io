@@ -4,6 +4,17 @@
 <title>Shuangyin Li @ CSE HKUST</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="imagetoolbar" content="no" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript">
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+
+</script>
 
 <style type="text/css">
 thead { font: 100%; }
@@ -61,8 +72,8 @@ div.navigation
     background-color: #FFFFFF;
     position: absolute;
     top: 2em;
-    left: 5em;
-    width: 25em;
+    left: 1em;
+    width: 23em;
     padding: 1em
 }
 
@@ -106,11 +117,13 @@ ul,ol {
   <center>
   <img src="./images/shuangyinli.jpg" alt="Shuangyin Li", height=200, align="center">
 
-  <h3> Shuangyin Li </h3>
+  <h3> Shuangyin Li (李双印)</h3>
   PostDoc in Department of Computer Science and Engineering, Hong Kong University of Science and Technology</p>
-  shuangyinli@cse.ust.hk
-  <p>
-  lshuangyin@gmail.com
+
+  <p>Emails: shuangyinli(at)cse(dot)ust(dot)hk <button onclick="copyToClipboard('#p1')">Copy</button>
+  <p hidden id="p1">shuangyinli@cse.ust.hk</p>
+  <p>lshuangyin(at)gmail(dot)com
+ 
   <p>
   Address:</m> Clearwater Bay, Kowloon, Hong Kong.
   </center>
@@ -122,15 +135,16 @@ ul,ol {
 <p><p>Now PostDoc in Department of Computer Science and Engineering, Hong Kong University of Science and Technology</p>
           <p>Supervisor: <a href="http://www.cse.ust.hk/~qyang/">Prof. Qiang Yang</a></p>
 
-<p> My research interests:
-Data Mining, Artificial Intelligence, Topic Modeling, Deep Learning, NLP.
+<br>
+<p> My interests:
+Data Mining, Artificial Intelligence, Topic Modeling, Deep Learning, NLP, and my life.
 
 
 <ul>
     <p>Positions and Educations:</p> 
-    <li>B.Sc. (2009) Lan Zhou University, Gansu.
-    <li>M.Sc. (2011) Sun Yat-sen University, Guangzhou.
-    <li>PhD (2014) Sun Yat-sen University, Guangzhou.
+    <li>B.Sc. (2009) Lanzhou University, Gansu.
+    <li>M.Sc. (2011) Sun Yat-sen University, Guangzhou. Supervisor: Prof. <a href="http://ss.sysu.edu.cn/~chhy/">Hongyang Chao</a>.
+    <li>PhD (2014) Sun Yat-sen University, Guangzhou. Supervisor: Prof. <a href="http://www.rongpan.net/">Rong Pan</a> and Prof. <a href="http://ss.sysu.edu.cn/~fjl/feng-cn.htm">Jianlin Feng</a>.
     <li>2015 - present: PostDoc in HKUST CSE.
 </ul>
 </div>  
