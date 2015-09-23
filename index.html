@@ -10,7 +10,9 @@ function copyToClipboard() {
   var $temp = $("<input>");
   $("body").append($temp);
   var $name = "shuangyinli";
-  $temp.val($name+"@cse.ust.hk").select();
+  var $name1 = "@";
+  var $name2 = "cse.ust.hk";
+  $temp.val($name+$name1+$name2).select();
   document.execCommand("copy");
   $temp.remove();
 }
