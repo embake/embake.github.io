@@ -9,16 +9,10 @@
 function copyToClipboard(element) {
   var $temp = $("<input>");
   $("body").append($temp);
-  $temp.val($(element).text()).select();
+  $temp.val("huahauhauhu").select();
   document.execCommand("copy");
   $temp.remove();
 }
-function copyToClipboard2(element) {
- holdtext.innerText = "hhahahhah";
-Copied = holdtext.createTextRange();
-Copied.execCommand("Copy");
-}
-
 </script>
 
 <style type="text/css">
@@ -140,7 +134,7 @@ ul,ol {
   <h3> Dr. Shuangyin Li (李双印)</h3>
   PostDoc in Department of Computer Science and Engineering, Hong Kong University of Science and Technology</p>
 
-  <p>Emails: shuangyinli(at)cse(dot)ust(dot)hk <button onclick="copyToClipboard2('#p1')">Copy</button>
+  <p>Emails: shuangyinli(at)cse(dot)ust(dot)hk <button onclick="copyToClipboard('#p1')">Copy</button>
   <p hidden id="p1">shuangyinli@cse.ust.hk</p>
   <p>lshuangyin(at)gmail(dot)com
  
